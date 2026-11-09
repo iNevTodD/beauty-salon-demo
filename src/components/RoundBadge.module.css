@@ -1,0 +1,16 @@
+.badge {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background-color: #fffdf8;
+    display: grid;
+    place-items: center;
+}
+
+.badgeText {
+    position: absolute;
+    inset: 0;
+}

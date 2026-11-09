@@ -1,0 +1,20 @@
+.visual {
+    overflow: hidden;
+    background-color: #DCE6C4;
+    width: 100%;
+    border-radius: 28px;
+    position: relative;
+    height: 400px;
+}
+
+@media(min-width: 768px) {
+    .visual {
+        border-radius: 36px;
+    }
+}
+
+@media(min-width: 1280px) {
+    .visual {
+        border-radius: 40px;
+    }
+}

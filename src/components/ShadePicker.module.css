@@ -1,0 +1,58 @@
+.shadeCard {
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 18px;
+    border-radius: 24px;
+    background: rgba(255, 253, 248, 0.92);
+    box-shadow: 0 16px 30px -22px rgba(30, 35, 32, 0.5);
+}
+
+@media(min-width: 768px){
+    .shadeCard{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.shadeHint {
+    display: block;
+    font-size: 13px;
+    color: #5C635C;
+}
+
+.shadeName {
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.swatches {
+    display: flex;
+    gap: 8px;
+}
+
+.swatch {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    border-radius: 50%;
+    border: 3px solid #fffdf8;
+    box-shadow: 0 0 0 1px #e4dfd3;
+    cursor: pointer;
+}
+
+.active {
+    box-shadow: 0 0 0 2px #1e2320;
+}
+
+@media (min-width: 768px) {
+    .swatch {
+        width: 34px;
+        height: 34px;
+    }
+}

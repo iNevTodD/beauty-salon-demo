@@ -1,0 +1,29 @@
+.nails {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%) rotate(-8deg);
+}
+
+.nail {
+    position: relative;
+    display: inline-flex;
+    border-radius: 50% 50% 44% 44% / 64% 64% 36% 36%;
+    background: linear-gradient(165deg, var(--shade) 0%, var(--shade) 42%, var(--shade-deep) 100%);
+    box-shadow: inset 0 -8px 16px rgba(0, 0, 0, 0.08),
+        0 22px 30px -16px var(--shade-deep);
+}
+
+.nail::after {
+    content: "";
+    position: absolute;
+    top: 12%;
+    left: 22%;
+    width: 18%;
+    height: 40%;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,53 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 40px;
+  padding: 0 16px;
+  border: none;
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+}
+
+@media(min-width: 768px) {
+  .button {
+    height: 48px;
+    padding: 0 20px;
+    font-size: 18px;
+  }
+}
+
+.button svg {
+  display: block;
+  flex-shrink: 0;
+}
+.primary{
+    background-color: #1E2320;
+    color: #FFFDF8;
+}
+
+.outline{
+    background-color: inherit;
+    color: #1E2320;
+    border: 1px solid #1E2320;
+}
+
+.soft{
+    background-color: #F6F3EC;
+    color: #1E2320;
+    padding: 0 18px;
+}
+
+.light{
+    background-color: #CFDDB0;
+    color: #1E2320;
+}
+
+.btn-fullwidth{
+    width: 100%;
+}
